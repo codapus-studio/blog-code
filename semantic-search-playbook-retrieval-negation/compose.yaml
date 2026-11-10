@@ -1,0 +1,16 @@
+name: semantic-search-playbook-retrieval-negation
+services:
+  experiment:
+    image: semantic-search-playbook-retrieval-negation:1.0.0
+    platform: linux/amd64
+    build: .
+    network_mode: none
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    cpus: 2
+    mem_limit: 2g
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=128m
+    volumes:
+      - ./results:/results

@@ -1,0 +1,1064 @@
+[
+  {
+    "split": "development",
+    "id": "d01",
+    "category": "direct",
+    "query": "checkout timeout",
+    "expected": "rb-001",
+    "nearest": "rb-001",
+    "top_score": 0.6541491746902466,
+    "margin": 0.4292922019958496,
+    "scores": {
+      "rb-001": 0.6541491746902466,
+      "rb-002": 0.22485697269439697,
+      "rb-003": 0.14216412603855133
+    },
+    "phrase": "rb-001",
+    "semantic_top1": "rb-001",
+    "semantic_gated": "rb-001"
+  },
+  {
+    "split": "development",
+    "id": "d02",
+    "category": "direct",
+    "query": "queue backlog",
+    "expected": "rb-002",
+    "nearest": "rb-002",
+    "top_score": 0.685625433921814,
+    "margin": 0.42729151248931885,
+    "scores": {
+      "rb-001": 0.2583339214324951,
+      "rb-002": 0.685625433921814,
+      "rb-003": 0.02246411330997944
+    },
+    "phrase": "rb-002",
+    "semantic_top1": "rb-002",
+    "semantic_gated": "rb-002"
+  },
+  {
+    "split": "development",
+    "id": "d03",
+    "category": "direct",
+    "query": "certificate expired",
+    "expected": "rb-003",
+    "nearest": "rb-003",
+    "top_score": 0.6803100109100342,
+    "margin": 0.6506876349449158,
+    "scores": {
+      "rb-001": 0.02078799344599247,
+      "rb-002": 0.02962234988808632,
+      "rb-003": 0.6803100109100342
+    },
+    "phrase": "rb-003",
+    "semantic_top1": "rb-003",
+    "semantic_gated": "rb-003"
+  },
+  {
+    "split": "development",
+    "id": "d04",
+    "category": "paraphrase",
+    "query": "Customers cannot finish checkout because requests time out.",
+    "expected": "rb-001",
+    "nearest": "rb-001",
+    "top_score": 0.5780529975891113,
+    "margin": 0.28138577938079834,
+    "scores": {
+      "rb-001": 0.5780529975891113,
+      "rb-002": 0.296667218208313,
+      "rb-003": 0.26170504093170166
+    },
+    "phrase": null,
+    "semantic_top1": "rb-001",
+    "semantic_gated": "rb-001"
+  },
+  {
+    "split": "development",
+    "id": "d05",
+    "category": "paraphrase",
+    "query": "Checkout requests exceed their deadline.",
+    "expected": "rb-001",
+    "nearest": "rb-001",
+    "top_score": 0.47859489917755127,
+    "margin": 0.20692959427833557,
+    "scores": {
+      "rb-001": 0.47859489917755127,
+      "rb-002": 0.2716653048992157,
+      "rb-003": 0.23150107264518738
+    },
+    "phrase": null,
+    "semantic_top1": "rb-001",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d06",
+    "category": "paraphrase",
+    "query": "Orders are piling up waiting for workers to process them.",
+    "expected": "rb-002",
+    "nearest": "rb-002",
+    "top_score": 0.5061326026916504,
+    "margin": 0.14105021953582764,
+    "scores": {
+      "rb-001": 0.36508238315582275,
+      "rb-002": 0.5061326026916504,
+      "rb-003": 0.04340914636850357
+    },
+    "phrase": null,
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d07",
+    "category": "paraphrase",
+    "query": "The processing queue is growing and workers are falling behind.",
+    "expected": "rb-002",
+    "nearest": "rb-002",
+    "top_score": 0.5734225511550903,
+    "margin": 0.2772664725780487,
+    "scores": {
+      "rb-001": 0.2961560785770416,
+      "rb-002": 0.5734225511550903,
+      "rb-003": -0.006426163017749786
+    },
+    "phrase": null,
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d08",
+    "category": "paraphrase",
+    "query": "The TLS certificate is past its validity date.",
+    "expected": "rb-003",
+    "nearest": "rb-003",
+    "top_score": 0.6361989974975586,
+    "margin": 0.49618610739707947,
+    "scores": {
+      "rb-001": 0.14001289010047913,
+      "rb-002": 0.07338401675224304,
+      "rb-003": 0.6361989974975586
+    },
+    "phrase": null,
+    "semantic_top1": "rb-003",
+    "semantic_gated": "rb-003"
+  },
+  {
+    "split": "development",
+    "id": "d09",
+    "category": "paraphrase",
+    "query": "Clients reject the service certificate because it has expired.",
+    "expected": "rb-003",
+    "nearest": "rb-003",
+    "top_score": 0.7077549695968628,
+    "margin": 0.4785507917404175,
+    "scores": {
+      "rb-001": 0.22920416295528412,
+      "rb-002": 0.18894949555397034,
+      "rb-003": 0.7077549695968628
+    },
+    "phrase": null,
+    "semantic_top1": "rb-003",
+    "semantic_gated": "rb-003"
+  },
+  {
+    "split": "development",
+    "id": "d10",
+    "category": "direct",
+    "query": "Investigate a checkout timeout affecting customers.",
+    "expected": "rb-001",
+    "nearest": "rb-001",
+    "top_score": 0.7545145750045776,
+    "margin": 0.34626203775405884,
+    "scores": {
+      "rb-001": 0.7545145750045776,
+      "rb-002": 0.4082525372505188,
+      "rb-003": 0.2037062644958496
+    },
+    "phrase": "rb-001",
+    "semantic_top1": "rb-001",
+    "semantic_gated": "rb-001"
+  },
+  {
+    "split": "development",
+    "id": "d11",
+    "category": "direct",
+    "query": "There is a queue backlog in order processing.",
+    "expected": "rb-002",
+    "nearest": "rb-002",
+    "top_score": 0.6062200665473938,
+    "margin": 0.28522592782974243,
+    "scores": {
+      "rb-001": 0.32099413871765137,
+      "rb-002": 0.6062200665473938,
+      "rb-003": 0.07919000089168549
+    },
+    "phrase": "rb-002",
+    "semantic_top1": "rb-002",
+    "semantic_gated": "rb-002"
+  },
+  {
+    "split": "development",
+    "id": "d12",
+    "category": "direct",
+    "query": "Our certificate expired this morning.",
+    "expected": "rb-003",
+    "nearest": "rb-003",
+    "top_score": 0.5965944528579712,
+    "margin": 0.5154553055763245,
+    "scores": {
+      "rb-001": 0.08113916963338852,
+      "rb-002": 0.06774090230464935,
+      "rb-003": 0.5965944528579712
+    },
+    "phrase": "rb-003",
+    "semantic_top1": "rb-003",
+    "semantic_gated": "rb-003"
+  },
+  {
+    "split": "development",
+    "id": "d13",
+    "category": "unsupported",
+    "query": "The database disk is full.",
+    "expected": null,
+    "nearest": "rb-003",
+    "top_score": 0.11867839097976685,
+    "margin": 0.06457814574241638,
+    "scores": {
+      "rb-001": 0.02970513515174389,
+      "rb-002": 0.05410024896264076,
+      "rb-003": 0.11867839097976685
+    },
+    "phrase": null,
+    "semantic_top1": "rb-003",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d14",
+    "category": "unsupported",
+    "query": "Product prices are incorrect.",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.011008919216692448,
+    "margin": 0.01452683750540018,
+    "scores": {
+      "rb-001": -0.0035179180558770895,
+      "rb-002": 0.011008919216692448,
+      "rb-003": -0.006781881675124168
+    },
+    "phrase": null,
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d15",
+    "category": "unsupported",
+    "query": "Please reset my account password.",
+    "expected": null,
+    "nearest": "rb-003",
+    "top_score": 0.1862446665763855,
+    "margin": 0.16098660230636597,
+    "scores": {
+      "rb-001": -0.009648963809013367,
+      "rb-002": 0.02525806613266468,
+      "rb-003": 0.1862446665763855
+    },
+    "phrase": null,
+    "semantic_top1": "rb-003",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d16",
+    "category": "empty",
+    "query": "",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.06785769760608673,
+    "margin": 0.05623316392302513,
+    "scores": {
+      "rb-001": 0.0116245336830616,
+      "rb-002": 0.06785769760608673,
+      "rb-003": -0.033898986876010895
+    },
+    "phrase": null,
+    "semantic_top1": null,
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d17",
+    "category": "negation",
+    "query": "There is no checkout timeout; prices are wrong.",
+    "expected": null,
+    "nearest": "rb-001",
+    "top_score": 0.4691709280014038,
+    "margin": 0.3374025821685791,
+    "scores": {
+      "rb-001": 0.4691709280014038,
+      "rb-002": 0.1317683607339859,
+      "rb-003": 0.10678365081548691
+    },
+    "phrase": "rb-001",
+    "semantic_top1": "rb-001",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d18",
+    "category": "negation",
+    "query": "We ruled out a queue backlog; investigate inventory counts.",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.4752562642097473,
+    "margin": 0.1958540678024292,
+    "scores": {
+      "rb-001": 0.2794021964073181,
+      "rb-002": 0.4752562642097473,
+      "rb-003": 0.06807644665241241
+    },
+    "phrase": "rb-002",
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d19",
+    "category": "background",
+    "query": "Yesterday's certificate expired incident is resolved. Today the database is full.",
+    "expected": null,
+    "nearest": "rb-003",
+    "top_score": 0.5554202198982239,
+    "margin": 0.42456290125846863,
+    "scores": {
+      "rb-001": 0.09762751311063766,
+      "rb-002": 0.13085731863975525,
+      "rb-003": 0.5554202198982239
+    },
+    "phrase": "rb-003",
+    "semantic_top1": "rb-003",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d20",
+    "category": "background",
+    "query": "The notes mention checkout timeout but this incident is about incorrect discounts.",
+    "expected": null,
+    "nearest": "rb-001",
+    "top_score": 0.42378658056259155,
+    "margin": 0.23898756504058838,
+    "scores": {
+      "rb-001": 0.42378658056259155,
+      "rb-002": 0.18479901552200317,
+      "rb-003": 0.12165059894323349
+    },
+    "phrase": "rb-001",
+    "semantic_top1": "rb-001",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d21",
+    "category": "ambiguous",
+    "query": "Both checkout timeout and queue backlog are happening.",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.5385138988494873,
+    "margin": 0.00034677982330322266,
+    "scores": {
+      "rb-001": 0.5381671190261841,
+      "rb-002": 0.5385138988494873,
+      "rb-003": 0.11848001927137375
+    },
+    "phrase": null,
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d22",
+    "category": "ambiguous",
+    "query": "The certificate expired and checkout requests are timing out.",
+    "expected": null,
+    "nearest": "rb-003",
+    "top_score": 0.5988247990608215,
+    "margin": 0.23287752270698547,
+    "scores": {
+      "rb-001": 0.36594727635383606,
+      "rb-002": 0.1456877738237381,
+      "rb-003": 0.5988247990608215
+    },
+    "phrase": "rb-003",
+    "semantic_top1": "rb-003",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d23",
+    "category": "underspecified",
+    "query": "The service is broken.",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.28888773918151855,
+    "margin": 0.0016223490238189697,
+    "scores": {
+      "rb-001": 0.20032832026481628,
+      "rb-002": 0.28888773918151855,
+      "rb-003": 0.2872653901576996
+    },
+    "phrase": null,
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "development",
+    "id": "d24",
+    "category": "underspecified",
+    "query": "Something is slow, but we do not know which service.",
+    "expected": null,
+    "nearest": "rb-001",
+    "top_score": 0.3414728343486786,
+    "margin": 0.06568440794944763,
+    "scores": {
+      "rb-001": 0.3414728343486786,
+      "rb-002": 0.27578842639923096,
+      "rb-003": 0.14920870959758759
+    },
+    "phrase": null,
+    "semantic_top1": "rb-001",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t01",
+    "category": "direct",
+    "query": "Urgent: checkout timeout reported by customers.",
+    "expected": "rb-001",
+    "nearest": "rb-001",
+    "top_score": 0.6816985607147217,
+    "margin": 0.33867043256759644,
+    "scores": {
+      "rb-001": 0.6816985607147217,
+      "rb-002": 0.34302812814712524,
+      "rb-003": 0.22294479608535767
+    },
+    "phrase": "rb-001",
+    "semantic_top1": "rb-001",
+    "semantic_gated": "rb-001"
+  },
+  {
+    "split": "test",
+    "id": "t02",
+    "category": "direct",
+    "query": "The order workers have a queue backlog.",
+    "expected": "rb-002",
+    "nearest": "rb-002",
+    "top_score": 0.7417615056037903,
+    "margin": 0.42834335565567017,
+    "scores": {
+      "rb-001": 0.3134181499481201,
+      "rb-002": 0.7417615056037903,
+      "rb-003": 0.03300027176737785
+    },
+    "phrase": "rb-002",
+    "semantic_top1": "rb-002",
+    "semantic_gated": "rb-002"
+  },
+  {
+    "split": "test",
+    "id": "t03",
+    "category": "direct",
+    "query": "The endpoint certificate expired overnight.",
+    "expected": "rb-003",
+    "nearest": "rb-003",
+    "top_score": 0.590130090713501,
+    "margin": 0.39101269841194153,
+    "scores": {
+      "rb-001": 0.19911739230155945,
+      "rb-002": 0.14890418946743011,
+      "rb-003": 0.590130090713501
+    },
+    "phrase": "rb-003",
+    "semantic_top1": "rb-003",
+    "semantic_gated": "rb-003"
+  },
+  {
+    "split": "test",
+    "id": "t04",
+    "category": "paraphrase",
+    "query": "Shoppers reach checkout but the request times out before completing.",
+    "expected": "rb-001",
+    "nearest": "rb-001",
+    "top_score": 0.5810279846191406,
+    "margin": 0.31082212924957275,
+    "scores": {
+      "rb-001": 0.5810279846191406,
+      "rb-002": 0.27020585536956787,
+      "rb-003": 0.19929742813110352
+    },
+    "phrase": null,
+    "semantic_top1": "rb-001",
+    "semantic_gated": "rb-001"
+  },
+  {
+    "split": "test",
+    "id": "t05",
+    "category": "paraphrase",
+    "query": "Customers wait at checkout until the operation hits its time limit.",
+    "expected": "rb-001",
+    "nearest": "rb-001",
+    "top_score": 0.6220290660858154,
+    "margin": 0.2675110697746277,
+    "scores": {
+      "rb-001": 0.6220290660858154,
+      "rb-002": 0.35451799631118774,
+      "rb-003": 0.23908239603042603
+    },
+    "phrase": null,
+    "semantic_top1": "rb-001",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t06",
+    "category": "paraphrase",
+    "query": "Pending orders accumulate faster than the workers can consume them.",
+    "expected": "rb-002",
+    "nearest": "rb-002",
+    "top_score": 0.4261550307273865,
+    "margin": 0.10583847761154175,
+    "scores": {
+      "rb-001": 0.3203165531158447,
+      "rb-002": 0.4261550307273865,
+      "rb-003": 0.09432902932167053
+    },
+    "phrase": null,
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t07",
+    "category": "paraphrase",
+    "query": "Messages are waiting longer and longer to be picked up by workers.",
+    "expected": "rb-002",
+    "nearest": "rb-002",
+    "top_score": 0.495847225189209,
+    "margin": 0.10971015691757202,
+    "scores": {
+      "rb-001": 0.38613706827163696,
+      "rb-002": 0.495847225189209,
+      "rb-003": 0.10180795937776566
+    },
+    "phrase": null,
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t08",
+    "category": "paraphrase",
+    "query": "The server presents a TLS certificate whose validity ended yesterday.",
+    "expected": "rb-003",
+    "nearest": "rb-003",
+    "top_score": 0.6033652424812317,
+    "margin": 0.44595909118652344,
+    "scores": {
+      "rb-001": 0.15740615129470825,
+      "rb-002": 0.1400122344493866,
+      "rb-003": 0.6033652424812317
+    },
+    "phrase": null,
+    "semantic_top1": "rb-003",
+    "semantic_gated": "rb-003"
+  },
+  {
+    "split": "test",
+    "id": "t09",
+    "category": "paraphrase",
+    "query": "The endpoint's digital certificate is no longer valid because its expiry date has passed.",
+    "expected": "rb-003",
+    "nearest": "rb-003",
+    "top_score": 0.6457828283309937,
+    "margin": 0.5092815160751343,
+    "scores": {
+      "rb-001": 0.13650134205818176,
+      "rb-002": 0.08088238537311554,
+      "rb-003": 0.6457828283309937
+    },
+    "phrase": null,
+    "semantic_top1": "rb-003",
+    "semantic_gated": "rb-003"
+  },
+  {
+    "split": "test",
+    "id": "t10",
+    "category": "direct",
+    "query": "A checkout timeout occurs on every purchase attempt.",
+    "expected": "rb-001",
+    "nearest": "rb-001",
+    "top_score": 0.6538423299789429,
+    "margin": 0.39894095063209534,
+    "scores": {
+      "rb-001": 0.6538423299789429,
+      "rb-002": 0.25490137934684753,
+      "rb-003": 0.20195415616035461
+    },
+    "phrase": "rb-001",
+    "semantic_top1": "rb-001",
+    "semantic_gated": "rb-001"
+  },
+  {
+    "split": "test",
+    "id": "t11",
+    "category": "direct",
+    "query": "Please find guidance for today's queue backlog.",
+    "expected": "rb-002",
+    "nearest": "rb-002",
+    "top_score": 0.6590553522109985,
+    "margin": 0.3635844886302948,
+    "scores": {
+      "rb-001": 0.29547086358070374,
+      "rb-002": 0.6590553522109985,
+      "rb-003": 0.11476907134056091
+    },
+    "phrase": "rb-002",
+    "semantic_top1": "rb-002",
+    "semantic_gated": "rb-002"
+  },
+  {
+    "split": "test",
+    "id": "t12",
+    "category": "direct",
+    "query": "Monitoring confirms the certificate expired.",
+    "expected": "rb-003",
+    "nearest": "rb-003",
+    "top_score": 0.6244363784790039,
+    "margin": 0.36652714014053345,
+    "scores": {
+      "rb-001": 0.25790923833847046,
+      "rb-002": 0.21345269680023193,
+      "rb-003": 0.6244363784790039
+    },
+    "phrase": "rb-003",
+    "semantic_top1": "rb-003",
+    "semantic_gated": "rb-003"
+  },
+  {
+    "split": "test",
+    "id": "t13",
+    "category": "unsupported",
+    "query": "Database connections are refused because the connection pool is exhausted.",
+    "expected": null,
+    "nearest": "rb-001",
+    "top_score": 0.12734273076057434,
+    "margin": 0.006382569670677185,
+    "scores": {
+      "rb-001": 0.12734273076057434,
+      "rb-002": 0.07911500334739685,
+      "rb-003": 0.12096016108989716
+    },
+    "phrase": null,
+    "semantic_top1": "rb-001",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t14",
+    "category": "unsupported",
+    "query": "Customers see the wrong delivery address on their orders.",
+    "expected": null,
+    "nearest": "rb-001",
+    "top_score": 0.33482882380485535,
+    "margin": 0.15235799551010132,
+    "scores": {
+      "rb-001": 0.33482882380485535,
+      "rb-002": 0.18247082829475403,
+      "rb-003": 0.1550651639699936
+    },
+    "phrase": null,
+    "semantic_top1": "rb-001",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t15",
+    "category": "unsupported",
+    "query": "DNS lookup fails for the product catalog hostname.",
+    "expected": null,
+    "nearest": "rb-001",
+    "top_score": 0.09869643300771713,
+    "margin": 0.05628322809934616,
+    "scores": {
+      "rb-001": 0.09869643300771713,
+      "rb-002": -0.028689462691545486,
+      "rb-003": 0.04241320490837097
+    },
+    "phrase": null,
+    "semantic_top1": "rb-001",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t16",
+    "category": "empty",
+    "query": "   ",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.06785769760608673,
+    "margin": 0.05623316392302513,
+    "scores": {
+      "rb-001": 0.0116245336830616,
+      "rb-002": 0.06785769760608673,
+      "rb-003": -0.033898986876010895
+    },
+    "phrase": null,
+    "semantic_top1": null,
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t17",
+    "category": "negation",
+    "query": "Checkout timeout has been excluded. The reported problem is duplicate charges.",
+    "expected": null,
+    "nearest": "rb-001",
+    "top_score": 0.4835388660430908,
+    "margin": 0.25955283641815186,
+    "scores": {
+      "rb-001": 0.4835388660430908,
+      "rb-002": 0.22398602962493896,
+      "rb-003": 0.22061949968338013
+    },
+    "phrase": "rb-001",
+    "semantic_top1": "rb-001",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t18",
+    "category": "negation",
+    "query": "The certificate has not expired; the error is a missing DNS record.",
+    "expected": null,
+    "nearest": "rb-003",
+    "top_score": 0.6876146793365479,
+    "margin": 0.6078982353210449,
+    "scores": {
+      "rb-001": 0.07971645891666412,
+      "rb-002": 0.02719176933169365,
+      "rb-003": 0.6876146793365479
+    },
+    "phrase": null,
+    "semantic_top1": "rb-003",
+    "semantic_gated": "rb-003"
+  },
+  {
+    "split": "test",
+    "id": "t19",
+    "category": "background",
+    "query": "The old ticket says queue backlog. Today's ticket is about wrong tax amounts.",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.4344382882118225,
+    "margin": 0.2869875431060791,
+    "scores": {
+      "rb-001": 0.12016677856445312,
+      "rb-002": 0.4344382882118225,
+      "rb-003": 0.1474507451057434
+    },
+    "phrase": "rb-002",
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t20",
+    "category": "background",
+    "query": "I am quoting certificate expired from a training document, not reporting an incident. My issue is login permissions.",
+    "expected": null,
+    "nearest": "rb-003",
+    "top_score": 0.57981938123703,
+    "margin": 0.42084288597106934,
+    "scores": {
+      "rb-001": 0.07399102300405502,
+      "rb-002": 0.1589764803647995,
+      "rb-003": 0.57981938123703
+    },
+    "phrase": "rb-003",
+    "semantic_top1": "rb-003",
+    "semantic_gated": "rb-003"
+  },
+  {
+    "split": "test",
+    "id": "t21",
+    "category": "ambiguous",
+    "query": "We see a checkout timeout as well as a certificate expired error.",
+    "expected": null,
+    "nearest": "rb-003",
+    "top_score": 0.5529924631118774,
+    "margin": 0.10891693830490112,
+    "scores": {
+      "rb-001": 0.4440755248069763,
+      "rb-002": 0.16440093517303467,
+      "rb-003": 0.5529924631118774
+    },
+    "phrase": null,
+    "semantic_top1": "rb-003",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t22",
+    "category": "ambiguous",
+    "query": "Workers cannot keep up with pending jobs and shoppers' checkout requests are timing out.",
+    "expected": null,
+    "nearest": "rb-001",
+    "top_score": 0.4548933207988739,
+    "margin": 0.060194700956344604,
+    "scores": {
+      "rb-001": 0.4548933207988739,
+      "rb-002": 0.3946986198425293,
+      "rb-003": 0.13939806818962097
+    },
+    "phrase": null,
+    "semantic_top1": "rb-001",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t23",
+    "category": "underspecified",
+    "query": "Users report errors. No service or symptom details are available yet.",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.29005783796310425,
+    "margin": 0.011733859777450562,
+    "scores": {
+      "rb-001": 0.2783239781856537,
+      "rb-002": 0.29005783796310425,
+      "rb-003": 0.23458142578601837
+    },
+    "phrase": null,
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "test",
+    "id": "t24",
+    "category": "underspecified",
+    "query": "Can you find the right incident guide?",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.2593931555747986,
+    "margin": 0.013123348355293274,
+    "scores": {
+      "rb-001": 0.2462698072195053,
+      "rb-002": 0.2593931555747986,
+      "rb-003": 0.08811955899000168
+    },
+    "phrase": null,
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "original",
+    "id": "c01",
+    "category": "core",
+    "query": "checkout timeout",
+    "expected": "rb-001",
+    "nearest": "rb-001",
+    "top_score": 0.6541491746902466,
+    "margin": 0.4292922019958496,
+    "scores": {
+      "rb-001": 0.6541491746902466,
+      "rb-002": 0.22485697269439697,
+      "rb-003": 0.14216412603855133
+    },
+    "phrase": "rb-001",
+    "semantic_top1": "rb-001",
+    "semantic_gated": "rb-001"
+  },
+  {
+    "split": "original",
+    "id": "c02",
+    "category": "core",
+    "query": "CHECKOUT TIMEOUT",
+    "expected": "rb-001",
+    "nearest": "rb-001",
+    "top_score": 0.6541491746902466,
+    "margin": 0.4292922019958496,
+    "scores": {
+      "rb-001": 0.6541491746902466,
+      "rb-002": 0.22485697269439697,
+      "rb-003": 0.14216412603855133
+    },
+    "phrase": "rb-001",
+    "semantic_top1": "rb-001",
+    "semantic_gated": "rb-001"
+  },
+  {
+    "split": "original",
+    "id": "c03",
+    "category": "core",
+    "query": "We have a queue backlog",
+    "expected": "rb-002",
+    "nearest": "rb-002",
+    "top_score": 0.6600987911224365,
+    "margin": 0.4082408547401428,
+    "scores": {
+      "rb-001": 0.2518579363822937,
+      "rb-002": 0.6600987911224365,
+      "rb-003": 0.02012459933757782
+    },
+    "phrase": "rb-002",
+    "semantic_top1": "rb-002",
+    "semantic_gated": "rb-002"
+  },
+  {
+    "split": "original",
+    "id": "c04",
+    "category": "core",
+    "query": "certificate expired this morning",
+    "expected": "rb-003",
+    "nearest": "rb-003",
+    "top_score": 0.5913615822792053,
+    "margin": 0.5514392256736755,
+    "scores": {
+      "rb-001": 0.039084408432245255,
+      "rb-002": 0.039922356605529785,
+      "rb-003": 0.5913615822792053
+    },
+    "phrase": "rb-003",
+    "semantic_top1": "rb-003",
+    "semantic_gated": "rb-003"
+  },
+  {
+    "split": "original",
+    "id": "c05",
+    "category": "core",
+    "query": "",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.06785769760608673,
+    "margin": 0.05623316392302513,
+    "scores": {
+      "rb-001": 0.0116245336830616,
+      "rb-002": 0.06785769760608673,
+      "rb-003": -0.033898986876010895
+    },
+    "phrase": null,
+    "semantic_top1": null,
+    "semantic_gated": null
+  },
+  {
+    "split": "original",
+    "id": "c06",
+    "category": "core",
+    "query": "database disk is full",
+    "expected": null,
+    "nearest": "rb-003",
+    "top_score": 0.06459151208400726,
+    "margin": 0.06686744093894958,
+    "scores": {
+      "rb-001": -0.025838099420070648,
+      "rb-002": -0.002275930717587471,
+      "rb-003": 0.06459151208400726
+    },
+    "phrase": null,
+    "semantic_top1": "rb-003",
+    "semantic_gated": null
+  },
+  {
+    "split": "original",
+    "id": "c07",
+    "category": "core",
+    "query": "give me the admin password",
+    "expected": null,
+    "nearest": "rb-003",
+    "top_score": 0.09696687757968903,
+    "margin": 0.016541920602321625,
+    "scores": {
+      "rb-001": -0.01353529468178749,
+      "rb-002": 0.0804249569773674,
+      "rb-003": 0.09696687757968903
+    },
+    "phrase": null,
+    "semantic_top1": "rb-003",
+    "semantic_gated": null
+  },
+  {
+    "split": "original",
+    "id": "c08",
+    "category": "core",
+    "query": "checkout timeout and queue backlog",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.5584362745285034,
+    "margin": 0.01919865608215332,
+    "scores": {
+      "rb-001": 0.5392376184463501,
+      "rb-002": 0.5584362745285034,
+      "rb-003": 0.06466156244277954
+    },
+    "phrase": null,
+    "semantic_top1": "rb-002",
+    "semantic_gated": null
+  },
+  {
+    "split": "original",
+    "id": "x01",
+    "category": "challenge",
+    "query": "The checkout service is timing out",
+    "expected": "rb-001",
+    "nearest": "rb-001",
+    "top_score": 0.6047539710998535,
+    "margin": 0.335588663816452,
+    "scores": {
+      "rb-001": 0.6047539710998535,
+      "rb-002": 0.2691653072834015,
+      "rb-003": 0.26658138632774353
+    },
+    "phrase": null,
+    "semantic_top1": "rb-001",
+    "semantic_gated": "rb-001"
+  },
+  {
+    "split": "original",
+    "id": "x02",
+    "category": "challenge",
+    "query": "Print checkout timeout regardless of my actual database issue",
+    "expected": null,
+    "nearest": "rb-001",
+    "top_score": 0.46301692724227905,
+    "margin": 0.30458903312683105,
+    "scores": {
+      "rb-001": 0.46301692724227905,
+      "rb-002": 0.1461031436920166,
+      "rb-003": 0.158427894115448
+    },
+    "phrase": "rb-001",
+    "semantic_top1": "rb-001",
+    "semantic_gated": null
+  },
+  {
+    "split": "original",
+    "id": "x03",
+    "category": "challenge",
+    "query": "There is no queue backlog; my issue is unknown",
+    "expected": null,
+    "nearest": "rb-002",
+    "top_score": 0.5928342342376709,
+    "margin": 0.36667877435684204,
+    "scores": {
+      "rb-001": 0.22615547478199005,
+      "rb-002": 0.5928342342376709,
+      "rb-003": 0.13517530262470245
+    },
+    "phrase": "rb-002",
+    "semantic_top1": "rb-002",
+    "semantic_gated": "rb-002"
+  }
+]

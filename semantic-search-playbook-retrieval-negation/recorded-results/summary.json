@@ -1,0 +1,116 @@
+{
+  "development": {
+    "phrase": {
+      "answerable_correct": 6,
+      "answerable_total": 12,
+      "abstention_correct": 7,
+      "abstention_total": 12,
+      "incorrect_selections": 5,
+      "matches": 11,
+      "total": 24,
+      "exact_correct": 13,
+      "match_precision": 0.5454545454545454,
+      "balanced_success": 0.5416666666666667
+    },
+    "semantic_top1": {
+      "answerable_correct": 12,
+      "answerable_total": 12,
+      "abstention_correct": 1,
+      "abstention_total": 12,
+      "incorrect_selections": 11,
+      "matches": 23,
+      "total": 24,
+      "exact_correct": 13,
+      "match_precision": 0.5217391304347826,
+      "balanced_success": 0.5416666666666666
+    },
+    "semantic_gated": {
+      "answerable_correct": 9,
+      "answerable_total": 12,
+      "abstention_correct": 12,
+      "abstention_total": 12,
+      "incorrect_selections": 0,
+      "matches": 9,
+      "total": 24,
+      "exact_correct": 21,
+      "match_precision": 1.0,
+      "balanced_success": 0.875
+    }
+  },
+  "test": {
+    "phrase": {
+      "answerable_correct": 6,
+      "answerable_total": 12,
+      "abstention_correct": 9,
+      "abstention_total": 12,
+      "incorrect_selections": 3,
+      "matches": 9,
+      "total": 24,
+      "exact_correct": 15,
+      "match_precision": 0.6666666666666666,
+      "balanced_success": 0.625
+    },
+    "semantic_top1": {
+      "answerable_correct": 12,
+      "answerable_total": 12,
+      "abstention_correct": 1,
+      "abstention_total": 12,
+      "incorrect_selections": 11,
+      "matches": 23,
+      "total": 24,
+      "exact_correct": 13,
+      "match_precision": 0.5217391304347826,
+      "balanced_success": 0.5416666666666666
+    },
+    "semantic_gated": {
+      "answerable_correct": 9,
+      "answerable_total": 12,
+      "abstention_correct": 10,
+      "abstention_total": 12,
+      "incorrect_selections": 2,
+      "matches": 11,
+      "total": 24,
+      "exact_correct": 19,
+      "match_precision": 0.8181818181818182,
+      "balanced_success": 0.7916666666666667
+    }
+  },
+  "original": {
+    "phrase": {
+      "answerable_correct": 4,
+      "answerable_total": 5,
+      "abstention_correct": 4,
+      "abstention_total": 6,
+      "incorrect_selections": 2,
+      "matches": 6,
+      "total": 11,
+      "exact_correct": 8,
+      "match_precision": 0.6666666666666666,
+      "balanced_success": 0.7333333333333334
+    },
+    "semantic_top1": {
+      "answerable_correct": 5,
+      "answerable_total": 5,
+      "abstention_correct": 1,
+      "abstention_total": 6,
+      "incorrect_selections": 5,
+      "matches": 10,
+      "total": 11,
+      "exact_correct": 6,
+      "match_precision": 0.5,
+      "balanced_success": 0.5833333333333334
+    },
+    "semantic_gated": {
+      "answerable_correct": 5,
+      "answerable_total": 5,
+      "abstention_correct": 5,
+      "abstention_total": 6,
+      "incorrect_selections": 1,
+      "matches": 6,
+      "total": 11,
+      "exact_correct": 10,
+      "match_precision": 0.8333333333333334,
+      "balanced_success": 0.9166666666666667
+    }
+  }
+}

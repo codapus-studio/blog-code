@@ -1,0 +1,19 @@
+{
+  "threshold": 0.575,
+  "margin": 0.275,
+  "development_metrics": {
+    "threshold": 0.575,
+    "margin": 0.275,
+    "answerable_correct": 9,
+    "answerable_total": 12,
+    "abstention_correct": 12,
+    "abstention_total": 12,
+    "incorrect_selections": 0,
+    "matches": 9,
+    "total": 24,
+    "exact_correct": 21,
+    "match_precision": 1.0,
+    "balanced_success": 0.875
+  },
+  "objective": "Mean of answerable success and correct abstention; ties favour fewer incorrect selections, then higher threshold, then higher margin."
+}

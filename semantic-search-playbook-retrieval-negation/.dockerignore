@@ -1,0 +1,15 @@
+*
+!Dockerfile
+!requirements.lock
+!download_model.py
+!experiment.py
+!verify_results.py
+!cases.json
+!baseline/
+!baseline/*.py
+!baseline/*.json
+!recorded-results/
+!recorded-results/*.json
+!recorded-results/*.csv
+!recorded-results/*.txt
+!recorded-results/*.md

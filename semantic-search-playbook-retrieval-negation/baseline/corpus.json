@@ -1,0 +1,5 @@
+[
+  {"id":"rb-001","title":"Checkout timeout triage","phrases":["checkout timeout"],"body":"Inspect checkout service health and dependency latency. Escalate to the checkout owner."},
+  {"id":"rb-002","title":"Worker queue backlog triage","phrases":["queue backlog"],"body":"Inspect worker availability and queue age. Escalate to the worker owner."},
+  {"id":"rb-003","title":"Certificate expiry triage","phrases":["certificate expired"],"body":"Verify certificate validity and service ownership. Escalate to the certificate owner."}
+]

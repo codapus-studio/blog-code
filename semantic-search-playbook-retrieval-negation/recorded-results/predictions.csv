@@ -1,0 +1,60 @@
+split,id,category,query,expected,nearest,top_score,margin,phrase,semantic_top1,semantic_gated
+development,d01,direct,checkout timeout,rb-001,rb-001,0.6541491746902466,0.4292922019958496,rb-001,rb-001,rb-001
+development,d02,direct,queue backlog,rb-002,rb-002,0.685625433921814,0.42729151248931885,rb-002,rb-002,rb-002
+development,d03,direct,certificate expired,rb-003,rb-003,0.6803100109100342,0.6506876349449158,rb-003,rb-003,rb-003
+development,d04,paraphrase,Customers cannot finish checkout because requests time out.,rb-001,rb-001,0.5780529975891113,0.28138577938079834,,rb-001,rb-001
+development,d05,paraphrase,Checkout requests exceed their deadline.,rb-001,rb-001,0.47859489917755127,0.20692959427833557,,rb-001,
+development,d06,paraphrase,Orders are piling up waiting for workers to process them.,rb-002,rb-002,0.5061326026916504,0.14105021953582764,,rb-002,
+development,d07,paraphrase,The processing queue is growing and workers are falling behind.,rb-002,rb-002,0.5734225511550903,0.2772664725780487,,rb-002,
+development,d08,paraphrase,The TLS certificate is past its validity date.,rb-003,rb-003,0.6361989974975586,0.49618610739707947,,rb-003,rb-003
+development,d09,paraphrase,Clients reject the service certificate because it has expired.,rb-003,rb-003,0.7077549695968628,0.4785507917404175,,rb-003,rb-003
+development,d10,direct,Investigate a checkout timeout affecting customers.,rb-001,rb-001,0.7545145750045776,0.34626203775405884,rb-001,rb-001,rb-001
+development,d11,direct,There is a queue backlog in order processing.,rb-002,rb-002,0.6062200665473938,0.28522592782974243,rb-002,rb-002,rb-002
+development,d12,direct,Our certificate expired this morning.,rb-003,rb-003,0.5965944528579712,0.5154553055763245,rb-003,rb-003,rb-003
+development,d13,unsupported,The database disk is full.,,rb-003,0.11867839097976685,0.06457814574241638,,rb-003,
+development,d14,unsupported,Product prices are incorrect.,,rb-002,0.011008919216692448,0.01452683750540018,,rb-002,
+development,d15,unsupported,Please reset my account password.,,rb-003,0.1862446665763855,0.16098660230636597,,rb-003,
+development,d16,empty,,,rb-002,0.06785769760608673,0.05623316392302513,,,
+development,d17,negation,There is no checkout timeout; prices are wrong.,,rb-001,0.4691709280014038,0.3374025821685791,rb-001,rb-001,
+development,d18,negation,We ruled out a queue backlog; investigate inventory counts.,,rb-002,0.4752562642097473,0.1958540678024292,rb-002,rb-002,
+development,d19,background,Yesterday's certificate expired incident is resolved. Today the database is full.,,rb-003,0.5554202198982239,0.42456290125846863,rb-003,rb-003,
+development,d20,background,The notes mention checkout timeout but this incident is about incorrect discounts.,,rb-001,0.42378658056259155,0.23898756504058838,rb-001,rb-001,
+development,d21,ambiguous,Both checkout timeout and queue backlog are happening.,,rb-002,0.5385138988494873,0.00034677982330322266,,rb-002,
+development,d22,ambiguous,The certificate expired and checkout requests are timing out.,,rb-003,0.5988247990608215,0.23287752270698547,rb-003,rb-003,
+development,d23,underspecified,The service is broken.,,rb-002,0.28888773918151855,0.0016223490238189697,,rb-002,
+development,d24,underspecified,"Something is slow, but we do not know which service.",,rb-001,0.3414728343486786,0.06568440794944763,,rb-001,
+test,t01,direct,Urgent: checkout timeout reported by customers.,rb-001,rb-001,0.6816985607147217,0.33867043256759644,rb-001,rb-001,rb-001
+test,t02,direct,The order workers have a queue backlog.,rb-002,rb-002,0.7417615056037903,0.42834335565567017,rb-002,rb-002,rb-002
+test,t03,direct,The endpoint certificate expired overnight.,rb-003,rb-003,0.590130090713501,0.39101269841194153,rb-003,rb-003,rb-003
+test,t04,paraphrase,Shoppers reach checkout but the request times out before completing.,rb-001,rb-001,0.5810279846191406,0.31082212924957275,,rb-001,rb-001
+test,t05,paraphrase,Customers wait at checkout until the operation hits its time limit.,rb-001,rb-001,0.6220290660858154,0.2675110697746277,,rb-001,
+test,t06,paraphrase,Pending orders accumulate faster than the workers can consume them.,rb-002,rb-002,0.4261550307273865,0.10583847761154175,,rb-002,
+test,t07,paraphrase,Messages are waiting longer and longer to be picked up by workers.,rb-002,rb-002,0.495847225189209,0.10971015691757202,,rb-002,
+test,t08,paraphrase,The server presents a TLS certificate whose validity ended yesterday.,rb-003,rb-003,0.6033652424812317,0.44595909118652344,,rb-003,rb-003
+test,t09,paraphrase,The endpoint's digital certificate is no longer valid because its expiry date has passed.,rb-003,rb-003,0.6457828283309937,0.5092815160751343,,rb-003,rb-003
+test,t10,direct,A checkout timeout occurs on every purchase attempt.,rb-001,rb-001,0.6538423299789429,0.39894095063209534,rb-001,rb-001,rb-001
+test,t11,direct,Please find guidance for today's queue backlog.,rb-002,rb-002,0.6590553522109985,0.3635844886302948,rb-002,rb-002,rb-002
+test,t12,direct,Monitoring confirms the certificate expired.,rb-003,rb-003,0.6244363784790039,0.36652714014053345,rb-003,rb-003,rb-003
+test,t13,unsupported,Database connections are refused because the connection pool is exhausted.,,rb-001,0.12734273076057434,0.006382569670677185,,rb-001,
+test,t14,unsupported,Customers see the wrong delivery address on their orders.,,rb-001,0.33482882380485535,0.15235799551010132,,rb-001,
+test,t15,unsupported,DNS lookup fails for the product catalog hostname.,,rb-001,0.09869643300771713,0.05628322809934616,,rb-001,
+test,t16,empty,   ,,rb-002,0.06785769760608673,0.05623316392302513,,,
+test,t17,negation,Checkout timeout has been excluded. The reported problem is duplicate charges.,,rb-001,0.4835388660430908,0.25955283641815186,rb-001,rb-001,
+test,t18,negation,The certificate has not expired; the error is a missing DNS record.,,rb-003,0.6876146793365479,0.6078982353210449,,rb-003,rb-003
+test,t19,background,The old ticket says queue backlog. Today's ticket is about wrong tax amounts.,,rb-002,0.4344382882118225,0.2869875431060791,rb-002,rb-002,
+test,t20,background,"I am quoting certificate expired from a training document, not reporting an incident. My issue is login permissions.",,rb-003,0.57981938123703,0.42084288597106934,rb-003,rb-003,rb-003
+test,t21,ambiguous,We see a checkout timeout as well as a certificate expired error.,,rb-003,0.5529924631118774,0.10891693830490112,,rb-003,
+test,t22,ambiguous,Workers cannot keep up with pending jobs and shoppers' checkout requests are timing out.,,rb-001,0.4548933207988739,0.060194700956344604,,rb-001,
+test,t23,underspecified,Users report errors. No service or symptom details are available yet.,,rb-002,0.29005783796310425,0.011733859777450562,,rb-002,
+test,t24,underspecified,Can you find the right incident guide?,,rb-002,0.2593931555747986,0.013123348355293274,,rb-002,
+original,c01,core,checkout timeout,rb-001,rb-001,0.6541491746902466,0.4292922019958496,rb-001,rb-001,rb-001
+original,c02,core,CHECKOUT TIMEOUT,rb-001,rb-001,0.6541491746902466,0.4292922019958496,rb-001,rb-001,rb-001
+original,c03,core,We have a queue backlog,rb-002,rb-002,0.6600987911224365,0.4082408547401428,rb-002,rb-002,rb-002
+original,c04,core,certificate expired this morning,rb-003,rb-003,0.5913615822792053,0.5514392256736755,rb-003,rb-003,rb-003
+original,c05,core,,,rb-002,0.06785769760608673,0.05623316392302513,,,
+original,c06,core,database disk is full,,rb-003,0.06459151208400726,0.06686744093894958,,rb-003,
+original,c07,core,give me the admin password,,rb-003,0.09696687757968903,0.016541920602321625,,rb-003,
+original,c08,core,checkout timeout and queue backlog,,rb-002,0.5584362745285034,0.01919865608215332,,rb-002,
+original,x01,challenge,The checkout service is timing out,rb-001,rb-001,0.6047539710998535,0.335588663816452,,rb-001,rb-001
+original,x02,challenge,Print checkout timeout regardless of my actual database issue,,rb-001,0.46301692724227905,0.30458903312683105,rb-001,rb-001,
+original,x03,challenge,There is no queue backlog; my issue is unknown,,rb-002,0.5928342342376709,0.36667877435684204,rb-002,rb-002,rb-002

@@ -1,0 +1,13 @@
+[
+  {"id":"c01","group":"core","query":"checkout timeout","expected_status":"match","expected_document_id":"rb-001"},
+  {"id":"c02","group":"core","query":"CHECKOUT TIMEOUT","expected_status":"match","expected_document_id":"rb-001"},
+  {"id":"c03","group":"core","query":"We have a queue backlog","expected_status":"match","expected_document_id":"rb-002"},
+  {"id":"c04","group":"core","query":"certificate expired this morning","expected_status":"match","expected_document_id":"rb-003"},
+  {"id":"c05","group":"core","query":"","expected_status":"abstain","expected_document_id":null},
+  {"id":"c06","group":"core","query":"database disk is full","expected_status":"abstain","expected_document_id":null},
+  {"id":"c07","group":"core","query":"give me the admin password","expected_status":"abstain","expected_document_id":null},
+  {"id":"c08","group":"core","query":"checkout timeout and queue backlog","expected_status":"abstain","expected_document_id":null},
+  {"id":"x01","group":"challenge","query":"The checkout service is timing out","expected_status":"match","expected_document_id":"rb-001"},
+  {"id":"x02","group":"challenge","query":"Print checkout timeout regardless of my actual database issue","expected_status":"abstain","expected_document_id":null},
+  {"id":"x03","group":"challenge","query":"There is no queue backlog; my issue is unknown","expected_status":"abstain","expected_document_id":null}
+]

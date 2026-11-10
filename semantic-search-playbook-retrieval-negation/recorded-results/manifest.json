@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-11-10T13:13:00.559979+00:00",
+  "python": "3.12.12",
+  "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+  "torch_threads": 2,
+  "model": {
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+  },
+  "document_representation": "title + . + body; normalized embeddings; dot product = cosine similarity",
+  "hashes": {
+    "cases.json": "0ad423a4c6598a425f434d0591b670845af8311efbce25f7caca0262f2383593",
+    "experiment.py": "5a115488f739c087fdb8282dd0fd8e5118380ff98bb4b354f2381da13e2422da",
+    "/baseline/baseline.py": "533f76c632e552f6f37a46d15a99213d6ba8f25c92a45c2c4bb546876fd8d382",
+    "/baseline/corpus.json": "abf1a7889d7a09fc32e30bacd0dd9666b85671279ca84adf5b83218dad52c489",
+    "/baseline/cases.json": "a0cd0a7492e18fd3df73755709ecdf866160456b0dbe95f92739e67b4abdf3c5"
+  }
+}
